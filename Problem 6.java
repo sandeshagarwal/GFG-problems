@@ -23,3 +23,11 @@ class GFG
 	       
 	}
 }
+
+
+// Better Solution C++/Java you have to understand
+/*int isLengthEvenOrOdd(struct Node* head)
+{
+if(head==nullptr) return 0;
+return (1^isLengthEvenOrOdd(head->next));
+}*/
